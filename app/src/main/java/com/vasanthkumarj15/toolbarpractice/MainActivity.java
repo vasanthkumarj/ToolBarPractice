@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId())
                 {
                     case R.id.delete:
-                        
+
                         break;
 
                      default:
