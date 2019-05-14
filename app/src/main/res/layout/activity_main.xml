@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:id="@+id/constlayout"
     android:layout_height="match_parent"
+    android:theme="@style/MenuStyle"
+    app:popupTheme="@style/PopUpStyle"
     tools:context=".MainActivity">
 
     <android.support.v7.widget.Toolbar
@@ -16,7 +18,8 @@
         app:layout_constraintTop_toTopOf="parent"
         android:background="@color/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-
+        android:theme="@style/MenuStyle"
+        app:popupTheme="@style/PopUpStyle"
         >
 
     </android.support.v7.widget.Toolbar>

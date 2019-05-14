@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/MenuStyle"
+    app:popupTheme="@style/PopUpStyle"
     tools:context=".MainActivity">
 
     <android.support.v7.widget.Toolbar
@@ -16,6 +18,8 @@
         android:background="@color/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:elevation="4dp"
+        android:theme="@style/MenuStyle"
+        app:popupTheme="@style/PopUpStyle"
         >
 
     </android.support.v7.widget.Toolbar>
